@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>World Clock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Merriweather:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d9461d41d7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1><i class="fa-solid fa-clock"></i> World Clock</h1>
+      <img class="map-picture" src="images/map.png" alt="map" width="" />
+      <select id="city">
+        <option value="">Select a city...</option>
+        <option value="Europe/London">London</option>
+        <option value="America/New_York">New York</option>
+        <option value="Asia/Seoul">Seoul</option>
+        <option value="America/Seattle">Seattle</option>
+        <option value="current">My current location</option>
+      </select>
+
+      <div id="cities">
+        <div class="city" id="berlin">
+          <div class="germany">
+            <h2>
+              Berlin
+              <img class="berlin" src="images/berlin.jpg" alt="tv tower" />
+            </h2>
+            <div class="date"></div>
+          </div>
+          <div class="time">></div>
+        </div>
+
+        <div class="city" id="sydney">
+          <div class="australia">
+            <h2>
+              Sydney
+              <img
+                class="sydney"
+                src="images/sydney.jpg"
+                alt="harbour bridge"
+              />
+            </h2>
+            <div class="date"></div>
+          </div>
+          <div class="time">></div>
+        </div>
+
+        <div class="city" id="tokyo">
+          <div class="japan">
+            <h2>
+              Tokyo
+              <img class="tokyo" src="images/tokyo.jpg" alt="cherry tree" />
+            </h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      This project was coded with 🧡 by Rosemary Hogarth and is open sourced on
+      <a
+        href="https://github.com/Rosemary-Hogarth/world-clock/tree/main"
+        target="_blank"
+      >
+        GitHub.</a
+      >
+    </footer>
+
+    <script src="javascript/index.js"></script>
+  </body>
+</html>

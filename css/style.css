@@ -1,0 +1,166 @@
+body {
+  background-color: #f4e9e9;
+  font-family: "Poppins", sans-serif;
+}
+.map-picture {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+.berlin {
+  width: 20px;
+  position: relative;
+  top: 8px;
+}
+
+.sydney {
+  width: 60px;
+  position: relative;
+  top: 7px;
+}
+
+.tokyo {
+  width: 45px;
+  position: relative;
+  top: 10px;
+}
+
+.london {
+  width: 55px;
+  position: relative;
+  top: 16px;
+}
+.newyork {
+  width: 65px;
+  position: relative;
+  top: 16px;
+}
+
+.seoul {
+  width: 65px;
+  position: relative;
+  top: 16px;
+}
+
+.seattle {
+  width: 100px;
+  position: relative;
+  top: 11px;
+}
+.container {
+  margin: 60px auto;
+  max-width: 600px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+i {
+  color: #3a3737;
+  font-size: 40px;
+}
+select {
+  width: 100%;
+  padding: 5px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 38px;
+  font-weight: 200;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+}
+
+.germany {
+  position: relative;
+  top: -11px;
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  color: #676b6d;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+
+.time {
+  font-size: 45px;
+  font-weight: 400;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time small {
+  font-size: 15px;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+a {
+  color: #151414;
+  text-decoration: underline #1b1a1a;
+}
+
+.link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #fb99a6;
+}
+footer {
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+  opacity: 0.7;
+  font-size: 13px;
+  color: #151414;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 768px) {
+  h2, .time {
+    font-size: 23px;
+  }
+
+  footer {
+    font-size: 8px;
+  }
+
+.london {
+  width: 20px;
+
+  position: relative;
+  top: 16px;
+}
+
+.newyork {
+  width: 25px;
+}
+
+.time {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+}
